@@ -28,7 +28,6 @@ public class Faceis {
         }
     }
     static int div(int num1, int num2){
-        System.out.println(num1/num2);
         return num1/num2;
     }
     static int mod(int num1, int num2){
@@ -57,15 +56,11 @@ public class Faceis {
                     System.out.printf("%d ", i);
                     contador_de_primos++;
                 }
-                contador = 0;
-                    /*System.out.printf("%d ", i);
-                        contador_de_primos++;*/
-                
+                contador = 0;                
             }
             if (contador_de_primos==0) {
                 System.out.println("Não existem primos presentes nesse intervalo");
             }
-       // }
     }
     public static void main(String[] args) {
         int menu, num1, num2; double num3;
